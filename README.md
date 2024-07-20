@@ -2,41 +2,89 @@
 
 ![LLM101n header image](llm101n.jpg)
 
->  What I cannot create, I do not understand. -Richard Feynman
+> “What I cannot create, I do not understand.” - Richard Feynman
 
-In this course we will build a Storyteller AI Large Language Model (LLM). Hand in hand, you'll be able create, refine and illustrate little [stories](https://huggingface.co/datasets/roneneldan/TinyStories) with the AI. We are going to build everything end-to-end from basics to a functioning web app similar to ChatGPT, from scratch in Python, C and CUDA, and with minimal computer science prerequisits. By the end you should have a relatively deep understanding of AI, LLMs, and deep learning more generally.
+Welcome to **LLM101n**, where we embark on an exciting journey to build a **Storyteller AI Large Language Model (LLM)** from scratch! 🚀 This course will guide you through every step of creating, refining, and illustrating captivating stories using AI. By the end of this course, you'll have a solid understanding of AI, LLMs, and deep learning concepts.
 
-**Syllabus**
+## 📚 Course Highlights
 
-- [Chapter 01](bigram/README.md) **Bigram Language Model** (language modeling)
-- [Chapter 02](micrograd/README.md) **Micrograd** (machine learning, backpropagation)
-- [Chapter 03](mlp/README.md) **N-gram model** (multi-layer perceptron, matmul, gelu)
-- [Chapter 04](attention/README.md) **Attention** (attention, softmax, positional encoder)
-- [Chapter 05](transformer/README.md) **Transformer** (transformer, residual, layernorm, GPT-2)
-- [Chapter 06](tokenization/README.md) **Tokenization** (minBPE, byte pair encoding)
-- [Chapter 07](optimization/README.md) **Optimization** (initialization, optimization, AdamW)
-- [Chapter 08](device/README.md) **Need for Speed I: Device** (device, CPU, GPU, ...)
-- [Chapter 09](precision/README.md) **Need for Speed II: Precision** (mixed precision training, fp16, bf16, fp8, ...)
-- [Chapter 10](distributed/README.md) **Need for Speed III: Distributed** (distributed optimization, DDP, ZeRO)
-- [Chapter 11](datasets/README.md) **Datasets** (datasets, data loading, synthetic data generation)
-- [Chapter 12](inference/README.md) **Inference I: kv-cache** (kv-cache)
-- [Chapter 13](quantization/README.md) **Inference II: Quantization** (quantization)
-- [Chapter 14](sft/README.md) **Finetuning I: SFT** (supervised finetuning SFT, PEFT, LoRA, chat)
-- [Chapter 15](rl/README.md) **Finetuning II: RL** (reinforcement learning, RLHF, PPO, DPO)
-- [Chapter 16](deployment/README.md) **Deployment** (API, web app)
-- [Chapter 17](multimodal/README.md) **Multimodal** (VQVAE, diffusion transformer)
+We'll cover everything from the basics to a fully functional web app, including:
 
-**Appendix**
+- **Python, C, and CUDA** programming
+- Language modeling, machine learning, and deep learning
+- Building and optimizing large-scale AI systems
 
-Further topics to work into the progression above:
+## 📜 Syllabus
 
-- Programming languages: Assembly, C, Python
-- Data types: Integer, Float, String (ASCII, Unicode, UTF-8)
-- Tensor: shapes, views, strides, contiguous, ...
-- Deep Learning frameowrks: PyTorch, JAX
-- Neural Net Architecture: GPT (1,2,3,4), Llama (RoPE, RMSNorm, GQA), MoE, ...
-- Multimodal: Images, Audio, Video, VQVAE, VQGAN, diffusion
+### **Chapter 01: [Bigram Language Model](bigram/README.md)**  
+Learn the fundamentals of language modeling with bigram models. 📈
+
+### **Chapter 02: [Micrograd](micrograd/README.md)**  
+Explore machine learning and backpropagation with Micrograd. 🤖
+
+### **Chapter 03: [N-gram Model](mlp/README.md)**  
+Dive into multi-layer perceptrons, matrix multiplication, and GELU activation. 🧠
+
+### **Chapter 04: [Attention](attention/README.md)**  
+Understand attention mechanisms, softmax, and positional encoding. 👁️‍🗨️
+
+### **Chapter 05: [Transformer](transformer/README.md)**  
+Master the transformer architecture, residual connections, and layer normalization. 🔄
+
+### **Chapter 06: [Tokenization](tokenization/README.md)**  
+Get hands-on with tokenization techniques like minBPE and byte pair encoding. 🏷️
+
+### **Chapter 07: [Optimization](optimization/README.md)**  
+Optimize your models with techniques such as initialization and AdamW. ⚙️
+
+### **Chapter 08: [Need for Speed I: Device](device/README.md)**  
+Learn about device optimization, CPU, GPU, and more. 💨
+
+### **Chapter 09: [Need for Speed II: Precision](precision/README.md)**  
+Explore mixed precision training with fp16, bf16, and fp8. 🎯
+
+### **Chapter 10: [Need for Speed III: Distributed](distributed/README.md)**  
+Understand distributed optimization, DDP, and ZeRO techniques. 🌐
+
+### **Chapter 11: [Datasets](datasets/README.md)**  
+Work with datasets, data loading, and synthetic data generation. 📊
+
+### **Chapter 12: [Inference I: kv-cache](inference/README.md)**  
+Optimize inference with key-value caching. 📦
+
+### **Chapter 13: [Inference II: Quantization](quantization/README.md)**  
+Learn about quantization techniques for efficient model deployment. 🧩
+
+### **Chapter 14: [Finetuning I: SFT](sft/README.md)**  
+Explore supervised finetuning, PEFT, LoRA, and chat models. 🔍
+
+### **Chapter 15: [Finetuning II: RL](rl/README.md)**  
+Delve into reinforcement learning with RLHF, PPO, and DPO. 🎲
+
+### **Chapter 16: [Deployment](deployment/README.md)**  
+Deploy your AI models with API integration and web apps. 🌍
+
+### **Chapter 17: [Multimodal](multimodal/README.md)**  
+Expand your knowledge with multimodal AI, including VQVAE and diffusion transformers. 🎥
+
+## 🛠️ Additional Topics
+
+- **Programming Languages:** Assembly, C, Python 🖥️
+- **Data Types:** Integer, Float, String (ASCII, Unicode, UTF-8) 🔢
+- **Tensor Operations:** Shapes, views, strides, contiguous 📏
+- **Deep Learning Frameworks:** PyTorch, JAX 📚
+- **Neural Net Architectures:** GPT (1,2,3,4), Llama (RoPE, RMSNorm, GQA), MoE 🧩
+- **Multimodal AI:** Images, Audio, Video, VQVAE, VQGAN, diffusion 🎨
+
+## 📅 Course Update
+
+As of **June 25**, please note that the course is in development and will take some time to complete. We appreciate your interest and request that you refrain from submitting Issues/PRs at this time. 🛠️
 
 ---
 
-**Update June 25.** To clarify, the course will take some time to build. There is no specific timeline. Thank you for your interest but please do not submit Issues/PRs.
+Feel free to reach out with any questions or feedback. Happy learning! 😊
+
+[![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)
+[![CUDA](https://img.shields.io/badge/CUDA-11.0%2B-orange)](https://developer.nvidia.com/cuda-toolkit)
+[![C](https://img.shields.io/badge/C-11.0%2B-green)](https://en.wikipedia.org/wiki/C%2B%2B)
+[![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
