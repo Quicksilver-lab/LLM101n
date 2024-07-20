@@ -4,7 +4,7 @@
 
 > “What I cannot create, I do not understand.” - Richard Feynman
 
-Welcome to **LLM101n**, where we embark on an exciting journey to build a **Storyteller AI Large Language Model (LLM)** from scratch! 🚀 This course will guide you through every step of creating, refining, and illustrating captivating stories using AI. By the end of this course, you'll have a solid understanding of AI, LLMs, and deep learning concepts.
+Welcome to **LLM101n**, where we embark on an exciting journey to build a **Storyteller AI Large Language Model (LLM)** from scratch! This course will guide you through every step of creating, refining, and illustrating captivating stories using AI. By the end of this course, you'll have a solid understanding of AI, LLMs, and deep learning concepts.
 
 ## 📚 Course Highlights
 
@@ -17,68 +17,68 @@ We'll cover everything from the basics to a fully functional web app, including:
 ## 📜 Syllabus
 
 ### **Chapter 01: [Bigram Language Model](bigram/README.md)**  
-Learn the fundamentals of language modeling with bigram models. 📈
+Learn the fundamentals of language modeling with bigram models. 
 
 ### **Chapter 02: [Micrograd](micrograd/README.md)**  
-Explore machine learning and backpropagation with Micrograd. 🤖
+Explore machine learning and backpropagation with Micrograd. 
 
 ### **Chapter 03: [N-gram Model](mlp/README.md)**  
-Dive into multi-layer perceptrons, matrix multiplication, and GELU activation. 🧠
+Dive into multi-layer perceptrons, matrix multiplication, and GELU activation. 
 
 ### **Chapter 04: [Attention](attention/README.md)**  
-Understand attention mechanisms, softmax, and positional encoding. 👁️‍🗨️
+Understand attention mechanisms, softmax, and positional encoding. 
 
 ### **Chapter 05: [Transformer](transformer/README.md)**  
-Master the transformer architecture, residual connections, and layer normalization. 🔄
+Master the transformer architecture, residual connections, and layer normalization. 
 
 ### **Chapter 06: [Tokenization](tokenization/README.md)**  
-Get hands-on with tokenization techniques like minBPE and byte pair encoding. 🏷️
+Get hands-on with tokenization techniques like minBPE and byte pair encoding. 
 
 ### **Chapter 07: [Optimization](optimization/README.md)**  
-Optimize your models with techniques such as initialization and AdamW. ⚙️
+Optimize your models with techniques such as initialization and AdamW. 
 
 ### **Chapter 08: [Need for Speed I: Device](device/README.md)**  
-Learn about device optimization, CPU, GPU, and more. 💨
+Learn about device optimization, CPU, GPU, and more. 
 
 ### **Chapter 09: [Need for Speed II: Precision](precision/README.md)**  
-Explore mixed precision training with fp16, bf16, and fp8. 🎯
+Explore mixed precision training with fp16, bf16, and fp8. 
 
 ### **Chapter 10: [Need for Speed III: Distributed](distributed/README.md)**  
-Understand distributed optimization, DDP, and ZeRO techniques. 🌐
+Understand distributed optimization, DDP, and ZeRO techniques. 
 
 ### **Chapter 11: [Datasets](datasets/README.md)**  
-Work with datasets, data loading, and synthetic data generation. 📊
+Work with datasets, data loading, and synthetic data generation. 
 
 ### **Chapter 12: [Inference I: kv-cache](inference/README.md)**  
-Optimize inference with key-value caching. 📦
+Optimize inference with key-value caching. 
 
 ### **Chapter 13: [Inference II: Quantization](quantization/README.md)**  
-Learn about quantization techniques for efficient model deployment. 🧩
+Learn about quantization techniques for efficient model deployment. 
 
 ### **Chapter 14: [Finetuning I: SFT](sft/README.md)**  
-Explore supervised finetuning, PEFT, LoRA, and chat models. 🔍
+Explore supervised finetuning, PEFT, LoRA, and chat models. 
 
 ### **Chapter 15: [Finetuning II: RL](rl/README.md)**  
-Delve into reinforcement learning with RLHF, PPO, and DPO. 🎲
+Delve into reinforcement learning with RLHF, PPO, and DPO. 
 
 ### **Chapter 16: [Deployment](deployment/README.md)**  
-Deploy your AI models with API integration and web apps. 🌍
+Deploy your AI models with API integration and web apps. 
 
 ### **Chapter 17: [Multimodal](multimodal/README.md)**  
-Expand your knowledge with multimodal AI, including VQVAE and diffusion transformers. 🎥
+Expand your knowledge with multimodal AI, including VQVAE and diffusion transformers. 
 
 ## 🛠️ Additional Topics
 
-- **Programming Languages:** Assembly, C, Python 🖥️
-- **Data Types:** Integer, Float, String (ASCII, Unicode, UTF-8) 🔢
-- **Tensor Operations:** Shapes, views, strides, contiguous 📏
-- **Deep Learning Frameworks:** PyTorch, JAX 📚
-- **Neural Net Architectures:** GPT (1,2,3,4), Llama (RoPE, RMSNorm, GQA), MoE 🧩
-- **Multimodal AI:** Images, Audio, Video, VQVAE, VQGAN, diffusion 🎨
+- **Programming Languages:** Assembly, C, Python 
+- **Data Types:** Integer, Float, String (ASCII, Unicode, UTF-8) 
+- **Tensor Operations:** Shapes, views, strides, contiguous 
+- **Deep Learning Frameworks:** PyTorch, JAX 
+- **Neural Net Architectures:** GPT (1,2,3,4), Llama (RoPE, RMSNorm, GQA), MoE 
+- **Multimodal AI:** Images, Audio, Video, VQVAE, VQGAN, diffusion
 
 ## 📅 Course Update
 
-As of **June 25**, please note that the course is in development and will take some time to complete. We appreciate your interest and request that you refrain from submitting Issues/PRs at this time. 🛠️
+As of **June 25**, please note that the course is in development and will take some time to complete. We appreciate your interest and request that you refrain from submitting Issues/PRs at this time. 
 
 ---
 
