@@ -78,7 +78,7 @@ Expand your knowledge with multimodal AI, including VQVAE and diffusion transfor
 
 ## 📅 Course Update
 
-As of **June 25**, please note that the course is in development and will take some time to complete. We appreciate your interest and request that you refrain from submitting Issues/PRs at this time. 
+As of **June 25**, please note that the course is still in development and will take some time to complete. We appreciate your interest and kindly request that you refrain from submitting Issues or Pull Requests (PRs) at this time. Thank you for your understanding and patience.
 
 ---
 
